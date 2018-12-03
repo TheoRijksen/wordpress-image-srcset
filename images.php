@@ -146,7 +146,6 @@ class responsiveImage {
 	*/
 	private function getFallback() {
 		if(!empty($this->path && $this->description))
-
 		return '<img src="wp-content/uploads/responsive/'.$this->name.'/'.$this->name.'.jpg" alt="'.$this->description.'" />';
 	}
 
